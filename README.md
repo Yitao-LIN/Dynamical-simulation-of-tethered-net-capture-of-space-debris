@@ -1,18 +1,27 @@
-# Dynamical simulation of tethered net capture of space debris
+# Dynamical Simulation of Tethered Net Capture of Space Debris
 
-This repository contains source codes for my Bachelors' graduation thesis. I aimed to simulate the dynamic behaviors of a tethered net capturing a space debris.
+This repository contains the source code for my Bachelor's graduation thesis. The project focuses on simulating the dynamic behavior of a tethered net capturing space debris.
+I apologize for the messy undergraduate coding and am willing to address any issues via email or GitHub.
 
-The main project is the C++ simulation environment (./CPP), which includes:
-  1. the simulation of net-deployment simulation (./CPP/Tether-net Deployment)
-  2. simple capturing simulation of cylinder capturing (./CPP/Tether-net to Cylinder)
-  3. complex capturing simulation of any triangle-meshed object (./CPP/Capture Dynamics)
+## Project Structure
 
-Besides, I provided some simple examples of multi-body systems' simulation, such as Damped-Mass-Spring-System and Falling-Ball-to-Ground (./CPP).
-This project contains easy Matlab examples for creating a Mass-Spring system, and visualizing the simulation result (./MATLAB).
+The main project is a C++ simulation environment located in the `./CPP` directory. It includes:
+
+1. **Net Deployment Simulation** (`./CPP/Tether-net Deployment`): Simulates the deployment of the tethered net.
+2. **Simple Capture Simulation** (`./CPP/Tether-net to Cylinder`): Simulates the capture of a cylindrical object.
+3. **Complex Capture Simulation** (`./CPP/Capture Dynamics`): Simulates the capture of arbitrarily shaped objects represented as triangle meshes.
+
+Additionally, the repository provides simple examples of multi-body system simulations, such as:
+- **Damped Mass-Spring System**
+- **Falling Ball to Ground**
+
+These examples can also be found in the `./CPP` directory.
+
+The project includes MATLAB scripts in the `./MATLAB` directory for creating mass-spring systems and visualizing simulation results.
 
 ## Requirements
 
-The main simulations requires eigen-3.3.8 package to run.
+The main simulations require the [Eigen 3.3.8](https://eigen.tuxfamily.org/) library and are designed to run on Windows 10/11.
 
 ## Simulation of Net Deployment
 
