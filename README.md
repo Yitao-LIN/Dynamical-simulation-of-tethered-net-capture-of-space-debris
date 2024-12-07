@@ -17,9 +17,11 @@ The main simulations requires eigen-3.3.8 package to run.
 ## Simulation of Net Deployment
 
 -- Net Deployment
-![](https://github.com/Yitao-LIN/Dynamical-simulation-of-tethered-net-capture-of-space-debris/tree/master/Demonstrations-GIF/NetDeploy.gif)
+
+![](https://github.com/Yitao-LIN/Dynamical-simulation-of-tethered-net-capture-of-space-debris/blob/master/Demonstrations-GIF/NetDeploy.gif)
 
 -- Capture a cuboid
+
 ![](https://github.com/Yitao-LIN/Dynamical-simulation-of-tethered-net-capture-of-space-debris/blob/master/Demonstrations-GIF/CuboidCapture-1.gif)
 ![](https://github.com/Yitao-LIN/Dynamical-simulation-of-tethered-net-capture-of-space-debris/blob/master/Demonstrations-GIF/CuboidCapture-2.gif)
 
